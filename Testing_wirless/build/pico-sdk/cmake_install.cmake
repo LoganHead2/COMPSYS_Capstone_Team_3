@@ -1,4 +1,4 @@
-# Install script for directory: C:/Y4S1/CS770/TeamCS/example/pico-sdk
+# Install script for directory: C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/tools/cmake_install.cmake")
-  include("C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/cmake_install.cmake")
-  include("C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/docs/cmake_install.cmake")
+  include("C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/tools/cmake_install.cmake")
+  include("C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/src/cmake_install.cmake")
+  include("C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

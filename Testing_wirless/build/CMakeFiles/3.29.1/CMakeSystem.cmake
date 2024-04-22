@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Windows")
 set(CMAKE_HOST_SYSTEM_VERSION "10.0.22631")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("C:/Y4S1/CS770/TeamCS/example/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
+include("C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

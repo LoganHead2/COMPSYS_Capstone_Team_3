@@ -19,7 +19,7 @@ int main() {
         if (cyw43_arch_wifi_connect_timeout_ms(ssid, pass, CYW43_AUTH_WPA2_AES_PSK, 10000)) {
             printf("failed to connect\n");
         } else {
-            printf("connected\n");
+            printf("connected!!!\n");
         }
         sleep_ms(10000); // Retry every 10 seconds or perform other tasks
     }

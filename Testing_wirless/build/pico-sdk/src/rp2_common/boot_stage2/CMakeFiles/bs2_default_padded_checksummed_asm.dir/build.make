@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Y4S1\CS770\TeamCS\example\Testing_wirless
+CMAKE_SOURCE_DIR = C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+CMAKE_BINARY_DIR = C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -56,20 +56,20 @@ include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checks
 include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\progress.make
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
-	C:\Python312\python.exe C:/Y4S1/CS770/TeamCS/example/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
+	C:\Python312\python.exe C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
-	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
+	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 
 bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
@@ -82,12 +82,12 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_as
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\clean:
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
 	$(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\clean
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Y4S1\CS770\TeamCS\example\Testing_wirless C:\Y4S1\CS770\TeamCS\example\pico-sdk\src\rp2_common\boot_stage2 C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2 C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\boot_stage2 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\depend
 

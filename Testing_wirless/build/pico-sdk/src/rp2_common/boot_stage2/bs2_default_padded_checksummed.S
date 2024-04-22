@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

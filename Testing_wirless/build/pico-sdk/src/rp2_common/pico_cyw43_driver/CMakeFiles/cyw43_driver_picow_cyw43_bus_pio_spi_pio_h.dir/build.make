@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Y4S1\CS770\TeamCS\example\Testing_wirless
+CMAKE_SOURCE_DIR = C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+CMAKE_BINARY_DIR = C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -56,14 +56,14 @@ include pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_
 include pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\progress.make
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio.h
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 
-pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio.h: C:\Y4S1\CS770\TeamCS\example\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver
-	echo >nul && "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk-tools\pioasm.exe" -o c-sdk C:/Y4S1/CS770/TeamCS/example/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio.h: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	echo >nul && "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk-tools\pioasm.exe" -o c-sdk C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Testing_wirless/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio.h
@@ -75,12 +75,12 @@ pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\clean:
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 	$(CMAKE_COMMAND) -P CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\cmake_clean.cmake
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\clean
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Y4S1\CS770\TeamCS\example\Testing_wirless C:\Y4S1\CS770\TeamCS\example\pico-sdk\src\rp2_common\pico_cyw43_driver C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\depend
 

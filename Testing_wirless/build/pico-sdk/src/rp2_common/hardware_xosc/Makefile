@@ -46,10 +46,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Y4S1\CS770\TeamCS\example\Testing_wirless
+CMAKE_SOURCE_DIR = C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+CMAKE_BINARY_DIR = C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\CMakeFiles C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc\\CMakeFiles\progress.marks
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\CMakeFiles C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\hardware_xosc\all
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\CMakeFiles 0
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\hardware_xosc\clean
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
 .PHONY : clean
 
 # The main clean target
@@ -96,23 +96,23 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\hardware_xosc\preinstall
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\hardware_xosc\preinstall
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
 .PHONY : depend
 
 # Help Target
@@ -134,8 +134,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\build\pico-sdk\src\rp2_common\hardware_xosc
 .PHONY : cmake_check_build_system
 
