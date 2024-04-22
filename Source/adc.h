@@ -5,3 +5,5 @@
 #include "hardware/adc.h"
 
 uint16_t adcConvert();
+void adcControl();
+void adcAverage();

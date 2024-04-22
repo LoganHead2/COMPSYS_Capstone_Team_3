@@ -33,3 +33,13 @@ uint16_t adcConvert() {
     return result;
 
 } 
+
+// Timer interrupt potentially to tell when 5 seconds has passed
+void adcControl() {
+    
+
+}
+
+void adcAverage() {
+
+}
