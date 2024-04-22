@@ -30,5 +30,6 @@ uint16_t adcConvert() {
     uint16_t result = adc_read();
     printf("Raw value: 0x%03x, voltage: %f V\n", result, result * conversion_factor);
 
+    return result;
 
 } 
