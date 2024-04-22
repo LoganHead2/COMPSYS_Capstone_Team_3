@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <constants.h>
 
+#include "pico/stdlib.h"
+
 // Variables
 enum state STATE = IDLE;
 float weight = 0.0;
 
 void main() {
+
+    stdio_init_all();
 
     while(1) {
 
