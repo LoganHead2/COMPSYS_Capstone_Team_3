@@ -1,13 +1,9 @@
-#include <stdio.h>
-
-#include "pico/stdlib.h"
-#include "pico/cyw43_arch.h"
+#include "wifi.h"
 
 char ssid[] = "Kay and Winter";
 char pass[] = "yucazohote";
 
-int main() {
-    stdio_init_all();
+void wifiConnect() {
     if (cyw43_arch_init_with_country(CYW43_COUNTRY_UK)) {
         printf("failed to initialise\n");
         return 1;

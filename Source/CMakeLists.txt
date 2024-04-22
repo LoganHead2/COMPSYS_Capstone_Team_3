@@ -13,8 +13,8 @@ pico_sdk_init()
 
 # Create the executable
 add_executable(test_wifi 
-    test.c
-    )
+    main.c
+)
 
 # Enable USB and UART output
 pico_enable_stdio_usb(test_wifi 1)

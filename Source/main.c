@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <constants.h>
-
-#include "pico/stdlib.h"
+#include "includes.h"
 
 // Variables
 enum state STATE = IDLE;
