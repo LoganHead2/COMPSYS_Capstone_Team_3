@@ -13,6 +13,7 @@ void main() {
         // Switch statement to enable state machine function
         switch (STATE) {
         case IDLE:
+            adcConvert();
             // Check wifi connection if connected do nothing, if not connected attempt to find a connection
             // Check for inputs from scale, if true move to WEIGH state
             // Check for inputs from tare button, if true move to TARE state

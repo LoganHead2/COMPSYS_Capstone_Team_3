@@ -1,4 +1,4 @@
-# Install script for directory: C:/Y4S1/CS770/TeamCS/example/pico-sdk/src/common/boot_picoboot
+# Install script for directory: C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/common/boot_picoboot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -12,19 +12,19 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 # Create the executable
-add_executable(test_wifi 
+add_executable(test_adc 
     main.c
 )
 
 # Enable USB and UART output
-pico_enable_stdio_usb(test_wifi 1)
-pico_enable_stdio_uart(test_wifi 0)
+pico_enable_stdio_usb(test_adc 1)
+pico_enable_stdio_uart(test_adc 0)
 
 # Generate extra outputs (map, hex, bin, etc.)
-pico_add_extra_outputs(test_wifi)
+pico_add_extra_outputs(test_adc)
 
 # Include directories
-target_include_directories(test_wifi PRIVATE 
+target_include_directories(test_adc PRIVATE 
     ${CMAKE_CURRENT_LIST_DIR}
     ${CMAKE_CURRENT_LIST_DIR}/.. # for our common lwipopts 
 )
@@ -33,9 +33,11 @@ target_include_directories(test_wifi PRIVATE
 
 
 # Link with necessary libraries
-target_link_libraries(test_wifi 
+target_link_libraries(test_adc 
     pico_cyw43_arch_lwip_threadsafe_background 
     pico_stdlib
+    hardware_adc
+    hardware_gpio
 )
 
 

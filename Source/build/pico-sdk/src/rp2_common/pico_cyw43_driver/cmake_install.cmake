@@ -1,4 +1,4 @@
-# Install script for directory: C:/Y4S1/CS770/TeamCS/example/pico-sdk/src/rp2_common/pico_cyw43_driver
+# Install script for directory: C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_cyw43_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cmake_install.cmake")
+  include("C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Source/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cmake_install.cmake")
 
 endif()
 

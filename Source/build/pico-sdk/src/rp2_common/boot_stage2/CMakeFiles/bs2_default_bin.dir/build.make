@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Y4S1\CS770\TeamCS\example\Testing_wirless
+CMAKE_SOURCE_DIR = C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+CMAKE_BINARY_DIR = C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build
 
 # Utility rule file for bs2_default_bin.
 
@@ -56,14 +56,14 @@ include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\compi
 include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\progress.make
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build\pico-sdk\src\rp2_common\boot_stage2
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
-	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build\pico-sdk\src\rp2_common\boot_stage2
+	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Source/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Source/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build
 
 bs2_default_bin: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin
 bs2_default_bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
@@ -75,12 +75,12 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build: bs2_de
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\clean:
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build\pico-sdk\src\rp2_common\boot_stage2
 	$(CMAKE_COMMAND) -P CMakeFiles\bs2_default_bin.dir\cmake_clean.cmake
-	cd C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build
+	cd C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\clean
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Y4S1\CS770\TeamCS\example\Testing_wirless C:\Y4S1\CS770\TeamCS\example\pico-sdk\src\rp2_common\boot_stage2 C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2 C:\Y4S1\CS770\TeamCS\example\Testing_wirless\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\boot_stage2 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build\pico-sdk\src\rp2_common\boot_stage2 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\depend
 
