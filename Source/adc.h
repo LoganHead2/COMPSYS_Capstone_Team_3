@@ -1,9 +1,14 @@
 #include <stdio.h>
-#include <cstdint>
+#include <stdint.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/adc.h"
+#include "constants.h"
+#include "inputs.h"
+#include "stdbool.h"
+#include "limits.h"
 
 uint16_t adcConvert();
-void adcControl();
-void adcAverage();
+double adcControl();
+bool adcMinMax();
+double adcAverage();

@@ -1,5 +1,6 @@
 #include "adc.h"
 
+
 // ADC.C
 // For all ADC functions
 // Includes can be found in adc.h
@@ -10,6 +11,9 @@ If we want to use interrupts we have this
 static void adc_irq_set_enabled (bool enabled)
 This enables adc interrupts, we'll prob just use polling
 */
+
+double adcWeights[50];
+int position = 0;
 
 uint16_t adcConvert() {
 
@@ -34,12 +38,58 @@ uint16_t adcConvert() {
 
 } 
 
-// Timer interrupt potentially to tell when 5 seconds has passed
-void adcControl() {
-    
+
+double adcControl() {
+    position = position + 1;
+
+    adcWeights[position] = (double) adcConvert();
+
+    if (position == 50) {
+        position = 0;
+    }
+
+    // displayWeight = weight - tare;
+    // // Display weight
+    // showWeight(); // NOT EXIST
+
+    if (adcMinMax() == 1) {
+        return adcAverage();
+    } else {
+        return 0;
+    }
 
 }
 
-void adcAverage() {
+bool adcMinMax() {
+    double max = INT_MIN;
+    double min = INT_MAX; 
+
+    for (int i = 0; i < 50; i++) {
+        if (adcWeights[i] > max) {
+            max = adcWeights[i];
+        }
+        if (adcWeights[i] < min) {
+            min = adcWeights[i];
+        }
+    }
+
+    if (max - min <= varible_weight) {
+        return true;
+    } else {
+        return false; 
+    }
+}
+
+double adcAverage() {
+    double average;
+    double sum = 0;
+
+    for (int i = 0; i < 50; i++) {
+        sum += adcWeights[i];
+    }
+
+    average = sum / 50;
+
+    return average;
 
 }

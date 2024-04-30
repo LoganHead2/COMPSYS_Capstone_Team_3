@@ -6,3 +6,5 @@ enum state {
     WEIGH,
     SEND
 };
+
+double varible_weight = 0.1;
