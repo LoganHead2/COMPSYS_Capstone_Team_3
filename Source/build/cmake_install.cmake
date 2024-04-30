@@ -1,4 +1,4 @@
-# Install script for directory: C:/Y4S1/CS770/TeamCS/example/Testing_wirless
+# Install script for directory: C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/pico-sdk/cmake_install.cmake")
+  include("C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Source/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Y4S1/CS770/TeamCS/example/Testing_wirless/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/Source/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
