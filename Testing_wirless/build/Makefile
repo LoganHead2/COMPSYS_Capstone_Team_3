@@ -106,17 +106,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_wifi
+# Target rules for targets named picow_tls_client_background
 
 # Build rule for target.
-test_wifi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) test_wifi
-.PHONY : test_wifi
+picow_tls_client_background: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) picow_tls_client_background
+.PHONY : picow_tls_client_background
 
 # fast build rule for target.
-test_wifi\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\build
-.PHONY : test_wifi\fast
+picow_tls_client_background\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\build
+.PHONY : picow_tls_client_background\fast
 
 #=============================================================================
 # Target rules for targets named bs2_default
@@ -170,12 +170,36 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast
 
+0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj: 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+.PHONY : 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+.PHONY : 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+
+0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i: 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+.PHONY : 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+.PHONY : 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+
+0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s: 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+.PHONY : 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+.PHONY : 0a43f8091e917c969e4e4777f09ff4a5\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.i
@@ -183,7 +207,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.s
@@ -191,7 +215,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj
@@ -199,7 +223,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.i
@@ -207,7 +231,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.s
@@ -215,7 +239,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj
@@ -223,7 +247,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.i
@@ -231,7 +255,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.s
@@ -239,7 +263,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj
@@ -247,7 +271,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.i
@@ -255,7 +279,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.s
@@ -263,7 +287,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.obj
@@ -271,7 +295,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.o
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.i
@@ -279,7 +303,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.i
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.s
@@ -287,7 +311,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.s
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_lib.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.obj
@@ -295,7 +319,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.o
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.i
@@ -303,7 +327,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.i
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.s
@@ -311,7 +335,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.s
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\api_msg.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.obj
@@ -319,7 +343,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.obj: 
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.i
@@ -327,7 +351,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.i: C_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.s
@@ -335,7 +359,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.s: C_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\err.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.obj
@@ -343,7 +367,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.ob
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.i
@@ -351,7 +375,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.i:
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.s
@@ -359,7 +383,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.s:
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\if_api.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.obj
@@ -367,7 +391,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.ob
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.i
@@ -375,7 +399,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.i:
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.s
@@ -383,7 +407,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.s:
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netbuf.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.obj
@@ -391,7 +415,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.i
@@ -399,7 +423,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.i: 
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.s
@@ -407,7 +431,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.s: 
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netdb.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.obj
@@ -415,7 +439,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.i
@@ -423,7 +447,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.s
@@ -431,7 +455,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\netifapi.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.obj
@@ -439,7 +463,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.o
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.i
@@ -447,7 +471,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.i
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.s
@@ -455,7 +479,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.s
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\sockets.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.obj
@@ -463,7 +487,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.i
@@ -471,7 +495,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.i: 
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.s
@@ -479,15 +503,87 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.s: 
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\api\tcpip.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\altcp_tls\altcp_tls_mbedtls_mem.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\apps\snmp\snmpv3_mbedtls.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.i
@@ -495,7 +591,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.i:
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.s
@@ -503,7 +599,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.s:
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.obj
@@ -511,7 +607,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_al
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.i
@@ -519,7 +615,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_al
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.s
@@ -527,7 +623,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_al
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_alloc.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.obj
@@ -535,7 +631,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tc
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.i
@@ -543,7 +639,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tc
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.s
@@ -551,7 +647,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tc
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\altcp_tcp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.obj
@@ -559,7 +655,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.obj:
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.i
@@ -567,7 +663,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.i: C
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.s
@@ -575,7 +671,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.s: C
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\def.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.obj
@@ -583,7 +679,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.obj:
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.i
@@ -591,7 +687,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.i: C
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.s
@@ -599,7 +695,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.s: C
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\dns.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.obj
@@ -607,7 +703,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chk
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.i
@@ -615,7 +711,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chk
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.s
@@ -623,7 +719,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chk
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\inet_chksum.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.obj
@@ -631,7 +727,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.i
@@ -639,7 +735,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.i: 
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.s
@@ -647,7 +743,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.s: 
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\init.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.obj
@@ -655,7 +751,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.obj: 
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.i
@@ -663,7 +759,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.i: C_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.s
@@ -671,7 +767,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.s: C_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ip.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.obj
@@ -679,7 +775,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.i
@@ -687,7 +783,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.s
@@ -695,7 +791,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.obj
@@ -703,7 +799,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\aut
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.i
@@ -711,7 +807,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\aut
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.s
@@ -719,7 +815,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\aut
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.obj
@@ -727,7 +823,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhc
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.i
@@ -735,7 +831,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhc
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.s
@@ -743,7 +839,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhc
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.obj
@@ -751,7 +847,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\eth
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.i
@@ -759,7 +855,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\eth
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.s
@@ -767,7 +863,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\eth
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.obj
@@ -775,7 +871,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icm
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.i
@@ -783,7 +879,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icm
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.s
@@ -791,7 +887,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icm
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.obj
@@ -799,7 +895,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igm
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.i
@@ -807,7 +903,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igm
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.s
@@ -815,7 +911,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igm
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.obj
@@ -823,7 +919,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.i
@@ -831,7 +927,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.s
@@ -839,7 +935,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.obj
@@ -847,7 +943,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.i
@@ -855,7 +951,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.s
@@ -863,7 +959,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.obj
@@ -871,7 +967,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.i
@@ -879,7 +975,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.s
@@ -887,7 +983,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.obj
@@ -895,7 +991,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhc
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.i
@@ -903,7 +999,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhc
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.s
@@ -911,7 +1007,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhc
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.obj
@@ -919,7 +1015,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\eth
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.i
@@ -927,7 +1023,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\eth
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.s
@@ -935,7 +1031,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\eth
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.obj
@@ -943,7 +1039,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icm
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.i
@@ -951,7 +1047,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icm
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.s
@@ -959,7 +1055,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icm
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.obj
@@ -967,7 +1063,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ine
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.i
@@ -975,7 +1071,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ine
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.s
@@ -983,7 +1079,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ine
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.obj
@@ -991,7 +1087,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.i
@@ -999,7 +1095,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.s
@@ -1007,7 +1103,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.obj
@@ -1015,7 +1111,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.i
@@ -1023,7 +1119,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.s
@@ -1031,7 +1127,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.obj
@@ -1039,7 +1135,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.i
@@ -1047,7 +1143,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.s
@@ -1055,7 +1151,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.obj
@@ -1063,7 +1159,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.i
@@ -1071,7 +1167,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.s
@@ -1079,7 +1175,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.obj
@@ -1087,7 +1183,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.i
@@ -1095,7 +1191,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.s
@@ -1103,7 +1199,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.obj
@@ -1111,7 +1207,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.obj:
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.i
@@ -1119,7 +1215,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.i: C
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.s
@@ -1127,7 +1223,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.s: C
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\mem.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.obj
@@ -1135,7 +1231,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.i
@@ -1143,7 +1239,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.i: 
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.s
@@ -1151,7 +1247,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.s: 
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.obj
@@ -1159,7 +1255,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.ob
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.i
@@ -1167,7 +1263,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.i:
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.s
@@ -1175,7 +1271,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.s:
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\netif.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.obj
@@ -1183,7 +1279,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.i
@@ -1191,7 +1287,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.i: 
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.s
@@ -1199,7 +1295,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.s: 
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\pbuf.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.obj
@@ -1207,7 +1303,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.obj:
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.i
@@ -1215,7 +1311,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.i: C
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.s
@@ -1223,7 +1319,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.s: C
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\raw.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.obj
@@ -1231,7 +1327,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.ob
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.i
@@ -1239,7 +1335,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.i:
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.s
@@ -1247,7 +1343,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.s:
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\stats.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.obj
@@ -1255,7 +1351,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.obj:
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.i
@@ -1263,7 +1359,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.i: C
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.s
@@ -1271,7 +1367,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.s: C
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\sys.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.obj
@@ -1279,7 +1375,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.obj:
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.i
@@ -1287,7 +1383,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.i: C
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.s
@@ -1295,7 +1391,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.s: C
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.obj
@@ -1303,7 +1399,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.o
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.i
@@ -1311,7 +1407,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.i
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.s
@@ -1319,7 +1415,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.s
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_in.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.obj
@@ -1327,7 +1423,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.i
@@ -1335,7 +1431,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.s
@@ -1343,7 +1439,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\tcp_out.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.obj
@@ -1351,7 +1447,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.i
@@ -1359,7 +1455,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.s
@@ -1367,7 +1463,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\timeouts.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.obj
@@ -1375,7 +1471,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.obj:
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.i
@@ -1383,7 +1479,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.i: C
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.s
@@ -1391,7 +1487,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.s: C
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\udp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.obj
@@ -1399,7 +1495,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgei
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.i
@@ -1407,7 +1503,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgei
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.s
@@ -1415,7 +1511,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgei
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.obj
@@ -1423,7 +1519,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgei
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.i
@@ -1431,7 +1527,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgei
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.s
@@ -1439,7 +1535,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgei
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.obj
@@ -1447,7 +1543,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\etherne
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.i
@@ -1455,7 +1551,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\etherne
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.s
@@ -1463,7 +1559,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\etherne
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ethernet.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.obj
@@ -1471,7 +1567,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.i
@@ -1479,7 +1575,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.s
@@ -1487,7 +1583,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.obj
@@ -1495,7 +1591,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.i
@@ -1503,7 +1599,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.s
@@ -1511,7 +1607,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.obj
@@ -1519,7 +1615,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.i
@@ -1527,7 +1623,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.s
@@ -1535,7 +1631,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.obj
@@ -1543,7 +1639,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\aut
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.i
@@ -1551,7 +1647,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\aut
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.s
@@ -1559,7 +1655,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\aut
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\auth.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.obj
@@ -1567,7 +1663,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.i
@@ -1575,7 +1671,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.s
@@ -1583,7 +1679,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.obj
@@ -1591,7 +1687,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.i
@@ -1599,7 +1695,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.s
@@ -1607,7 +1703,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.obj
@@ -1615,7 +1711,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.i
@@ -1623,7 +1719,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.s
@@ -1631,7 +1727,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.obj
@@ -1639,7 +1735,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.i
@@ -1647,7 +1743,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.s
@@ -1655,7 +1751,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\cha
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.obj
@@ -1663,7 +1759,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\dem
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.i
@@ -1671,7 +1767,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\dem
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.s
@@ -1679,7 +1775,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\dem
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\demand.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.obj
@@ -1687,7 +1783,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.i
@@ -1695,7 +1791,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.s
@@ -1703,7 +1799,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eap.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.obj
@@ -1711,7 +1807,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.i
@@ -1719,7 +1815,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.s
@@ -1727,7 +1823,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.obj
@@ -1735,7 +1831,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.i
@@ -1743,7 +1839,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.s
@@ -1751,7 +1847,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.obj
@@ -1759,7 +1855,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.i
@@ -1767,7 +1863,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.s
@@ -1775,7 +1871,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.obj
@@ -1783,7 +1879,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipc
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.i
@@ -1791,7 +1887,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipc
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.s
@@ -1799,7 +1895,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipc
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.obj
@@ -1807,7 +1903,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.i
@@ -1815,7 +1911,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.s
@@ -1823,7 +1919,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.obj
@@ -1831,7 +1927,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.i
@@ -1839,7 +1935,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.s
@@ -1847,7 +1943,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.obj
@@ -1855,7 +1951,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mag
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.i
@@ -1863,7 +1959,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mag
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.s
@@ -1871,7 +1967,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mag
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\magic.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.obj
@@ -1879,7 +1975,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mpp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.i
@@ -1887,7 +1983,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mpp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.s
@@ -1895,7 +1991,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mpp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.obj
@@ -1903,7 +1999,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mul
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.i
@@ -1911,7 +2007,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mul
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.s
@@ -1919,7 +2015,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mul
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj
@@ -1927,7 +2023,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.i
@@ -1935,7 +2031,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.s
@@ -1943,7 +2039,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.obj
@@ -1951,7 +2047,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.i
@@ -1959,7 +2055,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.s
@@ -1967,7 +2063,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.obj
@@ -1975,7 +2071,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.i
@@ -1983,7 +2079,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.s
@@ -1991,7 +2087,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.obj
@@ -1999,7 +2095,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.i
@@ -2007,7 +2103,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.s
@@ -2015,7 +2111,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj
@@ -2023,7 +2119,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.i
@@ -2031,7 +2127,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.s
@@ -2039,7 +2135,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pol
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.obj
@@ -2047,7 +2143,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.i
@@ -2055,7 +2151,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.s
@@ -2063,7 +2159,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.obj
@@ -2071,7 +2167,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.i
@@ -2079,7 +2175,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.s
@@ -2087,7 +2183,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.obj
@@ -2095,7 +2191,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.i
@@ -2103,7 +2199,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.s
@@ -2111,7 +2207,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.obj
@@ -2119,7 +2215,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.i
@@ -2127,7 +2223,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.s
@@ -2135,7 +2231,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.obj
@@ -2143,7 +2239,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.i
@@ -2151,7 +2247,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.s
@@ -2159,7 +2255,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.obj
@@ -2167,7 +2263,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.i
@@ -2175,7 +2271,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.s
@@ -2183,7 +2279,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\ppp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.obj
@@ -2191,7 +2287,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upa
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.i
@@ -2199,7 +2295,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upa
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.s
@@ -2207,7 +2303,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upa
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\upap.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.obj
@@ -2215,7 +2311,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\uti
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.i
@@ -2223,7 +2319,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\uti
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.s
@@ -2231,7 +2327,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\uti
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\utils.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.obj
@@ -2239,7 +2335,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.i
@@ -2247,7 +2343,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.s
@@ -2255,7 +2351,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\vj.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.obj
@@ -2263,7 +2359,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.i
@@ -2271,7 +2367,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.s
@@ -2279,7 +2375,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\slipif.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.obj
@@ -2287,7 +2383,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.o
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.i
@@ -2295,7 +2391,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.i
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.s
@@ -2303,15 +2399,2319 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.s
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\zepif.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aes.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aesni.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\arc4.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\aria.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1parse.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\asn1write.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\base64.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\bignum.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\blowfish.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\camellia.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ccm.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\certs.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chacha20.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\chachapoly.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cipher_wrap.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\cmac.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\constant_time.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ctr_drbg.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\debug.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\des.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\dhm.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdh.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecdsa.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecjpake.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ecp_curves.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\entropy_poll.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\error.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\gcm.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\havege.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hkdf.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\hmac_drbg.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md2.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md4.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\md5.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\memory_buffer_alloc.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_reader.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\mps_trace.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\net_sockets.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\nist_kw.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\oid.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\padlock.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pem.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pk_wrap.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs11.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs12.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkcs5.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkparse.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\pkwrite.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\platform_util.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\poly1305.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_aead.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_cipher.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_client.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_driver_wrappers.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_ecp.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_hash.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_mac.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_rsa.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_se.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_slot_management.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_crypto_storage.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\psa_its_file.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ripemd160.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\rsa_internal.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha1.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha256.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\sha512.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cache.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ciphersuites.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cli.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_cookie.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_msg.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_srv.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_ticket.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\ssl_tls13_keys.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\threading.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\timing.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\version_features.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_create.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crl.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_crt.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509_csr.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_crt.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\x509write_csr.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\library\xtea.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
@@ -2319,7 +4719,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audi
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
@@ -2327,7 +4727,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audi
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
@@ -2335,7 +4735,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
@@ -2343,7 +4743,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
@@ -2351,7 +4751,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
@@ -2359,7 +4759,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
@@ -2367,7 +4767,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
@@ -2375,7 +4775,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
@@ -2383,7 +4783,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
@@ -2391,7 +4791,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
@@ -2399,7 +4799,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
@@ -2407,7 +4807,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
@@ -2415,7 +4815,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
@@ -2423,7 +4823,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
@@ -2431,7 +4831,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
@@ -2439,7 +4839,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
@@ -2447,7 +4847,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
@@ -2455,7 +4855,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
@@ -2463,7 +4863,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
@@ -2471,7 +4871,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
@@ -2479,7 +4879,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
@@ -2487,7 +4887,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
@@ -2495,7 +4895,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
@@ -2503,7 +4903,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
@@ -2511,7 +4911,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
@@ -2519,7 +4919,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
@@ -2527,7 +4927,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbt
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
@@ -2535,7 +4935,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbt
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
@@ -2543,7 +4943,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbt
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
@@ -2551,7 +4951,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vend
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
@@ -2559,7 +4959,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vend
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
@@ -2567,7 +4967,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vend
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
@@ -2575,7 +4975,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vide
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
@@ -2583,7 +4983,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vide
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
@@ -2591,7 +4991,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\vide
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
@@ -2599,7 +4999,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tus
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
@@ -2607,7 +5007,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tus
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
@@ -2615,7 +5015,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tus
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
@@ -2623,7 +5023,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usb
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.i
@@ -2631,7 +5031,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usb
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.s
@@ -2639,7 +5039,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usb
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
@@ -2647,7 +5047,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usb
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
@@ -2655,7 +5055,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usb
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
@@ -2663,7 +5063,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usb
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
@@ -2671,7 +5071,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\r
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
@@ -2679,7 +5079,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\r
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
@@ -2687,7 +5087,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\r
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
@@ -2695,7 +5095,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\r
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
@@ -2703,7 +5103,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\r
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
@@ -2711,7 +5111,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\r
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.obj
@@ -2719,7 +5119,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.obj: 
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.i
@@ -2727,7 +5127,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.i: C_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.s
@@ -2735,7 +5135,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.s: C_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\tinyusb\src\tusb.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.obj
@@ -2743,7 +5143,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\criti
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.i
@@ -2751,7 +5151,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\criti
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.s
@@ -2759,7 +5159,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\criti
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\critical_section.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.obj
@@ -2767,7 +5167,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.i
@@ -2775,7 +5175,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.s
@@ -2783,7 +5183,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\lock_core.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.obj
@@ -2791,7 +5191,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.i
@@ -2799,7 +5199,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.s
@@ -2807,7 +5207,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\mutex.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.obj
@@ -2815,7 +5215,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.o
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.i
@@ -2823,7 +5223,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.i
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.s
@@ -2831,7 +5231,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.s
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_sync\sem.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.obj
@@ -2839,7 +5239,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.i
@@ -2847,7 +5247,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.s
@@ -2855,7 +5255,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\time.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.obj
@@ -2863,7 +5263,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeo
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.i
@@ -2871,7 +5271,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeo
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.s
@@ -2879,7 +5279,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeo
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_time\timeout_helper.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.obj
@@ -2887,7 +5287,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datet
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.i
@@ -2895,7 +5295,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datet
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.s
@@ -2903,7 +5303,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datet
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\datetime.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.obj
@@ -2911,7 +5311,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.i
@@ -2919,7 +5319,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.s
@@ -2927,7 +5327,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\pheap.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.obj
@@ -2935,7 +5335,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.i
@@ -2943,7 +5343,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.s
@@ -2951,7 +5351,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\queue.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
@@ -2959,7 +5359,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_cl
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
@@ -2967,7 +5367,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_cl
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
@@ -2975,7 +5375,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_cl
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
@@ -2983,7 +5383,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_cl
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
@@ -2991,7 +5391,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_cl
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
@@ -2999,7 +5399,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_cl
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_divider\divider.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
@@ -3007,7 +5407,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_di
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
@@ -3015,7 +5415,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dm
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
@@ -3023,7 +5423,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dm
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
@@ -3031,7 +5431,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dm
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj
@@ -3039,7 +5439,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ex
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.i
@@ -3047,7 +5447,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ex
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.s
@@ -3055,7 +5455,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ex
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_exception\exception.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
@@ -3063,7 +5463,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_fl
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
@@ -3071,7 +5471,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_fl
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
@@ -3079,7 +5479,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_fl
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
@@ -3087,7 +5487,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gp
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
@@ -3095,7 +5495,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gp
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
@@ -3103,7 +5503,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gp
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
@@ -3111,7 +5511,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ir
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
@@ -3119,7 +5519,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ir
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
@@ -3127,7 +5527,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ir
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
@@ -3135,7 +5535,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ir
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj
@@ -3143,7 +5543,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pi
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
@@ -3151,7 +5551,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pi
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
@@ -3159,7 +5559,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pi
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
@@ -3167,7 +5567,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pl
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
@@ -3175,7 +5575,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pl
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
@@ -3183,7 +5583,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pl
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
@@ -3191,7 +5591,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sy
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
@@ -3199,7 +5599,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sy
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
@@ -3207,7 +5607,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sy
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
@@ -3215,7 +5615,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ti
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
@@ -3223,7 +5623,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ti
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
@@ -3231,7 +5631,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ti
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
@@ -3239,7 +5639,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ua
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
@@ -3247,7 +5647,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ua
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
@@ -3255,7 +5655,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_ua
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
@@ -3263,7 +5663,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vr
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
@@ -3271,7 +5671,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vr
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
@@ -3279,7 +5679,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vr
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
@@ -3287,7 +5687,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_wa
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
@@ -3295,7 +5695,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_wa
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
@@ -3303,7 +5703,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_wa
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
@@ -3311,7 +5711,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xo
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
@@ -3319,7 +5719,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xo
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
@@ -3327,7 +5727,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xo
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj
@@ -3335,7 +5735,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.i
@@ -3343,7 +5743,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.s
@@ -3351,7 +5751,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj
@@ -3359,7 +5759,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.i
@@ -3367,7 +5767,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.s
@@ -3375,7 +5775,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
@@ -3383,7 +5783,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bit_op
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
@@ -3391,7 +5791,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootro
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
@@ -3399,7 +5799,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootro
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
@@ -3407,7 +5807,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootro
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj
@@ -3415,7 +5815,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.i
@@ -3423,7 +5823,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.s
@@ -3431,7 +5831,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj
@@ -3439,7 +5839,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.i
@@ -3447,7 +5847,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.s
@@ -3455,7 +5855,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj
@@ -3463,7 +5863,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.i
@@ -3471,7 +5871,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.s
@@ -3479,7 +5879,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj
@@ -3487,7 +5887,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.i
@@ -3495,7 +5895,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.s
@@ -3503,7 +5903,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj
@@ -3511,7 +5911,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.i
@@ -3519,7 +5919,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.s
@@ -3527,7 +5927,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj
@@ -3535,7 +5935,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.i
@@ -3543,7 +5943,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.s
@@ -3551,7 +5951,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj
@@ -3559,7 +5959,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.i
@@ -3567,7 +5967,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.s
@@ -3575,7 +5975,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj
@@ -3583,7 +5983,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.i
@@ -3591,7 +5991,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.s
@@ -3599,7 +5999,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_divider\divider.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
@@ -3607,7 +6007,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_divide
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_divider\divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_aeabi.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
@@ -3615,7 +6015,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
@@ -3623,7 +6023,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
@@ -3631,7 +6031,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
@@ -3639,7 +6039,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
@@ -3647,7 +6047,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.i
@@ -3655,7 +6055,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.s
@@ -3663,7 +6063,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
@@ -3671,39 +6071,15 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
-
-C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
-.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj
-
-# target to build an object file
-C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
-.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
-
-C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
-.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i
-
-# target to preprocess a source file
-C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
-.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
-
-C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
-.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s
-
-# target to generate assembly for a file
-C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
-.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
@@ -3711,7 +6087,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
@@ -3719,7 +6095,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
@@ -3727,7 +6103,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
@@ -3735,7 +6111,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.i
@@ -3743,7 +6119,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.s
@@ -3751,7 +6127,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
@@ -3759,7 +6135,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
@@ -3767,7 +6143,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_int64_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.obj
@@ -3775,7 +6151,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\l
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.i
@@ -3783,7 +6159,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\l
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.s
@@ -3791,7 +6167,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\l
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
@@ -3799,7 +6175,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
@@ -3807,7 +6183,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
@@ -3815,15 +6191,39 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.obj
+
+# target to build an object file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.obj
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.obj
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.i
+
+# target to preprocess a source file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.i
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.i
+
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.s
+
+# target to generate assembly for a file
+C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.s
+.PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mbedtls\pico_mbedtls.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.obj
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
@@ -3831,7 +6231,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platfo
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.i
@@ -3839,7 +6239,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platfo
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.s
@@ -3847,7 +6247,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platfo
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_platform\platform.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
@@ -3855,7 +6255,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.i
@@ -3863,7 +6263,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.s
@@ -3871,7 +6271,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_printf\printf.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.obj
@@ -3879,7 +6279,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\r
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.i
@@ -3887,7 +6287,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\r
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.s
@@ -3895,7 +6295,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\r
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_rand\rand.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
@@ -3903,7 +6303,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtim
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
@@ -3911,7 +6311,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtim
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
@@ -3919,7 +6319,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtim
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
@@ -3927,7 +6327,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standa
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
@@ -3935,7 +6335,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standa
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
@@ -3943,7 +6343,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standa
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\crt0.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
@@ -3951,7 +6351,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standa
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
@@ -3959,7 +6359,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standa
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
@@ -3967,7 +6367,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standa
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
@@ -3975,7 +6375,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standa
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
@@ -3983,7 +6383,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
@@ -3991,7 +6391,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
@@ -3999,7 +6399,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
@@ -4007,7 +6407,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
@@ -4015,7 +6415,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
@@ -4023,7 +6423,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
@@ -4031,7 +6431,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
@@ -4039,7 +6439,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
@@ -4047,7 +6447,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
@@ -4055,7 +6455,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
@@ -4063,7 +6463,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
@@ -4071,7 +6471,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
@@ -4079,7 +6479,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
@@ -4087,7 +6487,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
@@ -4095,7 +6495,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.obj: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj
@@ -4103,7 +6503,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique
 
 # target to build an object file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.i: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
@@ -4111,7 +6511,7 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique
 
 # target to preprocess a source file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
 
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.s: C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
@@ -4119,32 +6519,56 @@ C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique
 
 # target to generate assembly for a file
 C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
 .PHONY : C_\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
 
-test.obj: test.c.obj
-.PHONY : test.obj
+picow_tls_client.obj: picow_tls_client.c.obj
+.PHONY : picow_tls_client.obj
 
 # target to build an object file
-test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\test.c.obj
-.PHONY : test.c.obj
+picow_tls_client.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj
+.PHONY : picow_tls_client.c.obj
 
-test.i: test.c.i
-.PHONY : test.i
+picow_tls_client.i: picow_tls_client.c.i
+.PHONY : picow_tls_client.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\test.c.i
-.PHONY : test.c.i
+picow_tls_client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.i
+.PHONY : picow_tls_client.c.i
 
-test.s: test.c.s
-.PHONY : test.s
+picow_tls_client.s: picow_tls_client.c.s
+.PHONY : picow_tls_client.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_wifi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_wifi.dir\test.c.s
-.PHONY : test.c.s
+picow_tls_client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.s
+.PHONY : picow_tls_client.c.s
+
+tls_common.obj: tls_common.c.obj
+.PHONY : tls_common.obj
+
+# target to build an object file
+tls_common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\tls_common.c.obj
+.PHONY : tls_common.c.obj
+
+tls_common.i: tls_common.c.i
+.PHONY : tls_common.i
+
+# target to preprocess a source file
+tls_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\tls_common.c.i
+.PHONY : tls_common.c.i
+
+tls_common.s: tls_common.c.s
+.PHONY : tls_common.s
+
+# target to generate assembly for a file
+tls_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picow_tls_client_background.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\picow_tls_client_background.dir\tls_common.c.s
+.PHONY : tls_common.c.s
 
 # Help Target
 help:
@@ -4158,7 +6582,10 @@ help:
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... bs2_default
-	@echo ... test_wifi
+	@echo ... picow_tls_client_background
+	@echo ... 0a43f8091e917c969e4e4777f09ff4a5/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+	@echo ... 0a43f8091e917c969e4e4777f09ff4a5/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+	@echo ... 0a43f8091e917c969e4e4777f09ff4a5/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
@@ -4198,6 +6625,15 @@ help:
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/api/tcpip.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/api/tcpip.i
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/api/tcpip.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.s
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/core/altcp.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/core/altcp.i
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/core/altcp.s
@@ -4426,6 +6862,294 @@ help:
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/netif/zepif.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/netif/zepif.i
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/lwip/src/netif/zepif.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aes.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aes.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aes.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aesni.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aesni.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aesni.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/arc4.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/arc4.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/arc4.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aria.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aria.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/aria.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/asn1parse.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/asn1parse.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/asn1parse.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/asn1write.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/asn1write.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/asn1write.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/base64.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/base64.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/base64.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/bignum.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/bignum.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/bignum.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/blowfish.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/blowfish.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/blowfish.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/camellia.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/camellia.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/camellia.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ccm.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ccm.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ccm.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/certs.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/certs.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/certs.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/chacha20.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/chacha20.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/chacha20.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/chachapoly.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/chachapoly.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/chachapoly.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cipher.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cipher.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cipher.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cipher_wrap.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cipher_wrap.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cipher_wrap.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cmac.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cmac.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/cmac.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/constant_time.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/constant_time.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/constant_time.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ctr_drbg.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ctr_drbg.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ctr_drbg.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/debug.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/debug.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/debug.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/des.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/des.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/des.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/dhm.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/dhm.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/dhm.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecdh.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecdh.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecdh.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecdsa.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecdsa.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecdsa.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecjpake.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecjpake.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecjpake.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecp.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecp.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecp.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecp_curves.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecp_curves.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ecp_curves.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/entropy.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/entropy.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/entropy.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/entropy_poll.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/entropy_poll.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/entropy_poll.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/error.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/error.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/error.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/gcm.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/gcm.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/gcm.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/havege.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/havege.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/havege.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/hkdf.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/hkdf.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/hkdf.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/hmac_drbg.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/hmac_drbg.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/hmac_drbg.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md2.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md2.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md2.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md4.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md4.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md4.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md5.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md5.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/md5.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/mps_reader.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/mps_reader.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/mps_reader.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/mps_trace.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/mps_trace.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/mps_trace.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/net_sockets.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/net_sockets.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/net_sockets.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/nist_kw.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/nist_kw.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/nist_kw.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/oid.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/oid.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/oid.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/padlock.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/padlock.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/padlock.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pem.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pem.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pem.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pk.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pk.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pk.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pk_wrap.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pk_wrap.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pk_wrap.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs11.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs11.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs11.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs12.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs12.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs12.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs5.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs5.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkcs5.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkparse.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkparse.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkparse.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkwrite.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkwrite.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/pkwrite.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/platform.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/platform.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/platform.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/platform_util.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/platform_util.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/platform_util.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/poly1305.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/poly1305.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/poly1305.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_aead.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_aead.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_aead.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_client.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_client.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_client.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_hash.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_hash.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_hash.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_mac.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_mac.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_mac.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_se.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_se.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_se.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_storage.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_storage.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_crypto_storage.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_its_file.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_its_file.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/psa_its_file.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ripemd160.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ripemd160.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ripemd160.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/rsa.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/rsa.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/rsa.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/rsa_internal.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/rsa_internal.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/rsa_internal.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha1.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha1.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha1.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha256.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha256.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha256.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha512.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha512.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/sha512.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cache.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cache.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cache.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cli.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cli.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cli.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cookie.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cookie.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_cookie.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_msg.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_msg.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_msg.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_srv.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_srv.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_srv.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_ticket.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_ticket.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_ticket.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_tls.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_tls.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_tls.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/threading.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/threading.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/threading.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/timing.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/timing.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/timing.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/version.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/version.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/version.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/version_features.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/version_features.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/version_features.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_create.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_create.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_create.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_crl.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_crl.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_crl.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_crt.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_crt.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_crt.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_csr.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_csr.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509_csr.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509write_crt.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509write_crt.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509write_crt.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509write_csr.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509write_csr.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/x509write_csr.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/xtea.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/xtea.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/mbedtls/library/xtea.s
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
@@ -4597,9 +7321,6 @@ help:
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_double/double_math.i
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_double/double_math.s
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
-	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
-	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
-	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
@@ -4615,6 +7336,9 @@ help:
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.obj
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.i
+	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.s
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_platform/platform.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_platform/platform.i
@@ -4653,9 +7377,12 @@ help:
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/Y4S1/CS770/TeamCS/COMPSYS_Capstone_Team_3/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... picow_tls_client.obj
+	@echo ... picow_tls_client.i
+	@echo ... picow_tls_client.s
+	@echo ... tls_common.obj
+	@echo ... tls_common.i
+	@echo ... tls_common.s
 .PHONY : help
 
 
