@@ -1,4 +1,5 @@
-
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
 enum state {
     IDLE,
     SLEEP,
@@ -8,3 +9,5 @@ enum state {
 };
 
 double varible_weight = 0.1;
+
+#endif
