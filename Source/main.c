@@ -19,31 +19,29 @@ void main() {
             // Check wifi connection if connected do nothing, if not connected attempt to find a connection
 
             // Check for inputs from scale, if true move to WEIGH state
-            if (checkWeight() == 1) { // NOT EXIST
-                STATE = WEIGH;
-            }
-            // Check for inputs from tare button, if true move to TARE state
-            if (checkTare() == 1) { // NOT EXIST
-                STATE = TARE;
-            }
+            // if (checkWeight() == 1) { // NOT EXIST
+            //     STATE = WEIGH;
+            // }
+            // // Check for inputs from tare button, if true move to TARE state
+            // if (checkTare() == 1) { // NOT EXIST
+            //     STATE = TARE;
+            // }
 
         break;
         case SLEEP:
             // Deactivates wifi
-            disconnectWifi(); // NOT EXIST
+            // disconnectWifi(); // NOT EXIST
 
-            
-
-            // Check for inputs from scale, if true move to WEIGH state
-            if (checkWeight() == 1) { // NOT EXIST
-                // Reset tare when waking
-                tare = 0.0;
-                STATE = WEIGH;
-            }
-            // Check for inputs from tare button, if true move to TARE state
-            if (checkTare() == 1) { // NOT EXIST
-                STATE = TARE;
-            }
+            // // Check for inputs from scale, if true move to WEIGH state
+            // if (checkWeight() == 1) { // NOT EXIST
+            //     // Reset tare when waking
+            //     tare = 0.0;
+            //     STATE = WEIGH;
+            // }
+            // // Check for inputs from tare button, if true move to TARE state
+            // if (checkTare() == 1) { // NOT EXIST
+            //     STATE = TARE;
+            // }
 
         break;
         case TARE:
@@ -57,9 +55,9 @@ void main() {
             // Activate ADC
             weight = adcControl(tare);
             
-            if (checkTare() == 1) { // NOT EXIST
-                STATE = TARE;
-            }
+            // if (checkTare() == 1) { // NOT EXIST
+            //     STATE = TARE;
+            // }
 
             displayWeight = weight - tare;
 
