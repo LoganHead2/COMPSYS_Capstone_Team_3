@@ -1,7 +1,7 @@
 #include "includes.h"
 
 // Variables
-enum state STATE = IDLE;
+enum state STATE = WEIGH;
 double weight = 0.0;
 double tare = 0.0;
 double displayWeight;
@@ -61,9 +61,11 @@ void main() {
 
             displayWeight = weight - tare;
 
-            if (displayWeight > 0) {
-                STATE = SEND;
-            }
+            printf("voltage: %f V\n", displayWeight);
+
+            // if (displayWeight > 0) {
+            //     STATE = SEND;
+            // }
 
             // Move to SEND state? (If they want to tare how long do they need to do that before it sends)
             // Check for inputs from tare button, if true move to TARE state

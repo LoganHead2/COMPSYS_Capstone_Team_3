@@ -8,7 +8,7 @@
 #include "stdbool.h"
 #include "limits.h"
 
-uint16_t adcConvert();
+double adcConvert();
 double adcControl();
 bool adcMinMax();
 double adcAverage();

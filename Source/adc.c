@@ -15,7 +15,7 @@ This enables adc interrupts, we'll prob just use polling
 double adcWeights[50];
 int position = 0;
 
-uint16_t adcConvert() {
+double adcConvert() {
 
     // Initialise the ADC HW
     adc_init();
@@ -34,7 +34,7 @@ uint16_t adcConvert() {
     uint16_t result = adc_read();
     printf("Raw value: 0x%03x, voltage: %f V\n", result, result * conversion_factor);
 
-    return result;
+    return result * conversion_factor;
 
 } 
 
@@ -42,7 +42,7 @@ uint16_t adcConvert() {
 double adcControl() {
     position = position + 1;
 
-    adcWeights[position] = (double) adcConvert();
+    adcWeights[position] = adcConvert();
 
     if (position == 50) {
         position = 0;
