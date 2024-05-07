@@ -10770,6 +10770,7 @@ CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\_ansi.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\_newlib_version.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\assert.h"
+CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\limits.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\machine\_default_types.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\machine\_types.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\machine\ieeefp.h"
@@ -10785,10 +10786,13 @@ CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain ar
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\sys\lock.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\sys\reent.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\sys\stdio.h"
+CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\include\sys\syslimits.h"
+CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\lib\gcc\arm-none-eabi\13.2.1\include\limits.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\lib\gcc\arm-none-eabi\13.2.1\include\stdarg.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\lib\gcc\arm-none-eabi\13.2.1\include\stdbool.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\lib\gcc\arm-none-eabi\13.2.1\include\stddef.h"
 CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\lib\gcc\arm-none-eabi\13.2.1\include\stdint.h"
+CMakeFiles\test_adc.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\lib\gcc\arm-none-eabi\13.2.1\include\syslimits.h"
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\boards\include\boards\pico_w.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\constants.h
@@ -10796,7 +10800,9 @@ CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\adc.h
 CMakeFiles\test_adc.dir\main.c.obj: generated\pico_base\pico\config_autogen.h
 CMakeFiles\test_adc.dir\main.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\constants.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\includes.h
+CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\inputs.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_base\include\pico.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_base\include\pico\assert.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_base\include\pico\config.h
@@ -11453,6 +11459,8 @@ C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\mpp
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\multilink.c:
 
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c:
+
+C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\inputs.h:
 
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c:
 

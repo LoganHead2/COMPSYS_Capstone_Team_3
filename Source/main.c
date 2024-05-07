@@ -62,7 +62,7 @@ void main() {
             displayWeight = weight - tare;
 
             printf("voltage: %f V\n", displayWeight);
-
+            sleep_ms(500);
             // if (displayWeight > 0) {
             //     STATE = SEND;
             // }
