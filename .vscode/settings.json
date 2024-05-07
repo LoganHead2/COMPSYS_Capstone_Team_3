@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "adc.h": "c"
+        "adc.h": "c",
+        "constants.h": "c",
+        "limits.h": "c"
     }
 }

@@ -1,7 +1,7 @@
 #include "includes.h"
 
 // Variables
-enum state STATE = WEIGH;
+enum state STATE = IDLE;
 double weight = 0.0;
 double tare = 0.0;
 double displayWeight;
@@ -9,23 +9,16 @@ double displayWeight;
 void main() {
 
     stdio_init_all();
-
+    initPins();
+    tare = adcConvert();
     while(1) {
 
         // Switch statement to enable state machine function
         switch (STATE) {
         case IDLE:
-            adcConvert();
+            
             // Check wifi connection if connected do nothing, if not connected attempt to find a connection
-
-            // Check for inputs from scale, if true move to WEIGH state
-            // if (checkWeight() == 1) { // NOT EXIST
-            //     STATE = WEIGH;
-            // }
-            // // Check for inputs from tare button, if true move to TARE state
-            // if (checkTare() == 1) { // NOT EXIST
-            //     STATE = TARE;
-            // }
+           
 
         break;
         case SLEEP:
@@ -39,9 +32,7 @@ void main() {
             //     STATE = WEIGH;
             // }
             // // Check for inputs from tare button, if true move to TARE state
-            // if (checkTare() == 1) { // NOT EXIST
-            //     STATE = TARE;
-            // }
+           
 
         break;
         case TARE:
@@ -53,11 +44,11 @@ void main() {
         break;
         case WEIGH:
             // Activate ADC
-            weight = adcControl(tare);
+            weight = adcControl();
             
-            // if (checkTare() == 1) { // NOT EXIST
-            //     STATE = TARE;
-            // }
+            if (checkTare() == true) { 
+                STATE = TARE;
+            }
 
             displayWeight = weight - tare;
 
@@ -74,7 +65,7 @@ void main() {
         break;
         case SEND:
             // The weight is sent to the backend via HTTPS
-            // Move to the IDLE state
+            // Move to the WEIGH state
 
         break;
         default:

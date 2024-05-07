@@ -33,7 +33,7 @@ double adcConvert() {
     // Perform a single conversion.
     uint16_t result = adc_read();
     printf("Raw value: 0x%03x, voltage: %f V\n", result, result * conversion_factor);
-
+    sleep_ms(100);
     return result * conversion_factor;
 
 } 
@@ -43,6 +43,8 @@ double adcControl() {
     position = position + 1;
 
     adcWeights[position] = adcConvert();
+
+
 
     if (position == 50) {
         position = 0;
