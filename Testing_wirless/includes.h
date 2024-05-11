@@ -4,3 +4,4 @@
 #include "adc.c"
 #include "inputs.h"
 #include "inputs.c"
+#include "wifi.c"

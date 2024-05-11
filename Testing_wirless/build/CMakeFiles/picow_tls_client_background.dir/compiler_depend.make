@@ -14555,6 +14555,8 @@ CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770
 CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\includes.h
 CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\inputs.c
 CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\inputs.h
+CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\wifi.c
+CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\wifi.h
 CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43.h
 CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_config.h
 CMakeFiles\picow_tls_client_background.dir\picow_tls_client.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\cyw43-driver\src\cyw43_country.h
@@ -15457,6 +15459,8 @@ C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\ipv4\acd
 
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_util\include\pico\util\pheap.h:
 
+C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\wifi.c:
+
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\lwip\src\core\memp.c:
 
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\lib\mbedtls\include\mbedtls\pk_internal.h:
@@ -16084,5 +16088,7 @@ C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\constants.h:
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\adc.h:
 
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\inputs.h:
+
+C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\wifi.h:
 
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Testing_wirless\tls_common.c:
