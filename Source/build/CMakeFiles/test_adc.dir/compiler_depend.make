@@ -10802,6 +10802,7 @@ CMakeFiles\test_adc.dir\main.c.obj: generated\pico_base\pico\config_autogen.h
 CMakeFiles\test_adc.dir\main.c.obj: generated\pico_base\pico\version.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\constants.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\includes.h
+CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\inputs.c
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\inputs.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_base\include\pico.h
 CMakeFiles\test_adc.dir\main.c.obj: C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\pico-sdk\src\common\pico_base\include\pico\assert.h
@@ -11769,3 +11770,5 @@ C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\constants.h:
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\adc.c:
 
 C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\adc.h:
+
+C:\Y4S1\CS770\TeamCS\COMPSYS_Capstone_Team_3\Source\inputs.c:
