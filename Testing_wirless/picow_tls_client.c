@@ -27,38 +27,31 @@ void main() {
         case IDLE:
             
             // Check wifi connection if connected do nothing, if not connected attempt to find a connection
-        //    stdio_init_all();
-        //    cyw43_arch_init();
+            
+            printf("IDLE\n");
 
-        //     if (cyw43_arch_init()) {
-        //         printf("failed to initialise\n");
-                
-        //     }
-        //     cyw43_arch_enable_sta_mode();
+            connect_to_wifi();
+            
+            // send_http_post_request("{\"ScaleID\": 8888, \"Weight\": 999}");
+            send_http_post_request("{\"value\": 999}");
+            // send_http_post_request("{value: 999}");
 
+            sleep_ms(100);
 
-        //     if (cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 30000)) {
-        //         printf("failed to connect\n");
-                
-        //     }
+            
+            printf("All done\n");
 
-        //     send_http_post_request("{\"ScaleID\": 8888, \"Weight\": 999}");
-
-        //     sleep_ms(100);
-
-        //     // cyw43_arch_deinit();
-        //     printf("All done\n");
-
-        //     STATE = SLEEP;
+            STATE = SLEEP;
         break;
         case SLEEP:
 
-        // Tbh if its only for disconnect Wifi then we probally not need this state 
+        
             // Deactivates wifi
             // NOT EXIST
-            // cyw43_arch_deinit();
+            disconnect_to_wifi();
             
-            
+            // STATE = IDLE;  // for testing wifi reconnect 
+
             // // Check for inputs from scale, if true move to WEIGH state
             // if (checkWeight() == 1) { // NOT EXIST
             //     // Reset tare when waking
@@ -100,27 +93,27 @@ void main() {
         case SEND:
             // The weight is sent to the backend via HTTPS
             // Move to the WEIGH state
-            stdio_init_all();
-            cyw43_arch_init();
+            // stdio_init_all();
+            // cyw43_arch_init();
 
-            if (cyw43_arch_init()) {
-                printf("failed to initialise\n");
+            // if (cyw43_arch_init()) {
+            //     printf("failed to initialise\n");
                 
-            }
-            cyw43_arch_enable_sta_mode();
+            // }
+            // cyw43_arch_enable_sta_mode();
 
 
-            if (cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 30000)) {
-                printf("failed to connect\n");
+            // if (cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 30000)) {
+            //     printf("failed to connect\n");
                 
-            }
+            // }
 
-            send_http_post_request("{\"ScaleID\": 8888, \"Weight\": 999}");
+            // send_http_post_request("{\"ScaleID\": 8888, \"Weight\": 999}");
 
-            sleep_ms(100);
+            // sleep_ms(100);
 
-            cyw43_arch_deinit(); // i believe this dia=sable wifi modual 
-            printf("All done\n");
+            // cyw43_arch_deinit(); // i believe this dia=sable wifi modual 
+            // printf("All done\n");
 
 
         break;
