@@ -19,7 +19,8 @@ void connect_to_wifi() {
 }
 
 void disconnect_to_wifi() {
-    cyw43_arch_disable_sta_mode();	
+    cyw43_arch_deinit();
+    // cyw43_arch_disable_sta_mode();	
     // printf("disconnect!!\n");
     
 }

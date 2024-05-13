@@ -31,7 +31,7 @@ void main() {
             printf("IDLE\n");
 
             connect_to_wifi();
-            
+            printf("test\n");
             // send_http_post_request("{\"ScaleID\": 8888, \"Weight\": 999}");
             send_http_post_request("{\"value\": 999}");
             // send_http_post_request("{value: 999}");
@@ -50,7 +50,7 @@ void main() {
             // NOT EXIST
             disconnect_to_wifi();
             
-            // STATE = IDLE;  // for testing wifi reconnect 
+            STATE = IDLE;  // for testing wifi reconnect 
 
             // // Check for inputs from scale, if true move to WEIGH state
             // if (checkWeight() == 1) { // NOT EXIST
@@ -91,31 +91,11 @@ void main() {
 
         break;
         case SEND:
-            // The weight is sent to the backend via HTTPS
-            // Move to the WEIGH state
-            // stdio_init_all();
-            // cyw43_arch_init();
+            
+            send_http_post_request("{\"value\": 999}");
+            sleep_ms(100);
 
-            // if (cyw43_arch_init()) {
-            //     printf("failed to initialise\n");
-                
-            // }
-            // cyw43_arch_enable_sta_mode();
-
-
-            // if (cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 30000)) {
-            //     printf("failed to connect\n");
-                
-            // }
-
-            // send_http_post_request("{\"ScaleID\": 8888, \"Weight\": 999}");
-
-            // sleep_ms(100);
-
-            // cyw43_arch_deinit(); // i believe this dia=sable wifi modual 
-            // printf("All done\n");
-
-
+            
         break;
         default:
         break;
