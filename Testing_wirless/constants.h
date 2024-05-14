@@ -8,6 +8,7 @@ enum state {
     SEND
 };
 
-double varible_weight = 0.1;
+double varible_weight = 0.05;
+double average_weight = 0.01; 
 
 #endif

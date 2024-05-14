@@ -16,7 +16,7 @@ void initPins() {
 
 bool checkTare() {
 
-    if (!gpio_get(TARE_BUTTON)) {
+    if (gpio_get(TARE_BUTTON) == 0) {
         return true;
     } else {
         return false;

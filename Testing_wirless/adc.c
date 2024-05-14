@@ -12,7 +12,7 @@ static void adc_irq_set_enabled (bool enabled)
 This enables adc interrupts, we'll prob just use polling
 */
 
-double adcWeights[50];
+double adcWeights[500];
 int position = 0;
 
 double adcConvert() {
@@ -32,9 +32,8 @@ double adcConvert() {
     const float conversion_factor = 3.3f / (1 << 12);
     // Perform a single conversion.
     uint16_t result = adc_read();
-    printf("Raw value: 0x%03x, voltage: %f V\n", result, result * conversion_factor);
-    sleep_ms(100);
     return result * conversion_factor;
+    sleep_ms(1);
 
 } 
 
@@ -44,9 +43,12 @@ double adcControl() {
 
     adcWeights[position] = adcConvert();
 
-
-
-    if (position == 50) {
+    if (position == 500) {
+        if (adcMinMax() == 1) {
+            return adcAverage();
+        } else {
+            return 0;
+        }
         position = 0;
     }
 
@@ -54,11 +56,7 @@ double adcControl() {
     // // Display weight
     // showWeight(); // NOT EXIST
 
-    if (adcMinMax() == 1) {
-        return adcAverage();
-    } else {
-        return 0;
-    }
+    
 
 }
 
@@ -66,7 +64,7 @@ bool adcMinMax() {
     double max = INT_MIN;
     double min = INT_MAX; 
 
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 500; i++) {
         if (adcWeights[i] > max) {
             max = adcWeights[i];
         }
@@ -86,11 +84,11 @@ double adcAverage() {
     double average;
     double sum = 0;
 
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 500; i++) {
         sum += adcWeights[i];
     }
 
-    average = sum / 50;
+    average = sum / 500;
 
     return average;
 
