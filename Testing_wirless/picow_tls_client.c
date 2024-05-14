@@ -11,10 +11,43 @@ enum state STATE = WEIGH;
 double weight = 0.0;
 double tare = 0.0;
 double displayWeight;
+double displayWeight_cmp;
 double displayWeights[20];
-int index = 0; 
+int ind = 0; 
 
+bool dipalyWeightMinMax() {
+    double max = INT_MIN;
+    double min = INT_MAX; 
 
+    for (int i = 0; i < 5; i++) {
+        if (displayWeights[i] > max) {
+            max = displayWeights[i];
+        }
+        if (displayWeights[i] < min) {
+            min = displayWeights[i];
+        }
+    }
+
+    if (max - min <= average_weight) {
+        return true;
+    } else {
+        return false; 
+    }
+}
+
+double dipalyWeightAverage() {
+    double average;
+    double sum = 0;
+
+    for (int i = 0; i < 5; i++) {
+        sum += displayWeights[i];
+    }
+
+    average = sum / 5;
+
+    return average;
+
+}
 
 void main() {
 
@@ -32,15 +65,15 @@ void main() {
             printf("IDLE\n");
 
             connect_to_wifi();
-            printf("test\n");
+            
             // send_http_post_request("{\"ScaleID\": 8888, \"Weight\": 999}");
-            send_http_post_request("{\"value\": 999}");
+            // send_http_post_request("{\"value\": 999}");
             // send_http_post_request("{value: 999}");
 
-            sleep_ms(100);
+            // sleep_ms(100);
 
             
-            printf("All done\n");
+            // printf("All done\n");
 
             // STATE = SLEEP; // for wifi testing
         break;
@@ -79,21 +112,27 @@ void main() {
                 STATE = TARE;
             }
 
-            index = index + 1;
-            displayWeights[index] = (weight - tare)/0.1642;
-            if (index == 20) {
-                if (adcMinMax() == 1) {
-                    displayWeight = adcAverage();
-                }else {
-                    displayWeight = 0;
-                }
-                index = 0;
+            // displayWeight_cmp = (weight - tare)/0.1642;// to compare
+            
+            ind = ind + 1;
+            displayWeights[ind] = (weight - tare)/0.1642;
+            // displayWeight_cmp = displayWeights[ind];
+            
+            if (ind == 10) {
+                // if (dipalyWeightMinMax() == 1) {
+                    displayWeight = dipalyWeightAverage();
+                // }else {
+                    // displayWeight = 0;
+                // }
+                
+                ind = 0;
             }
         
             printf("tare: %f \n", tare);
-            printf("original weight: %f V \n", weight);
+            printf("original voltage: %f V \n", weight);
             printf("voltage: %f V\n", (weight - tare));
-            printf("weight: %f \n", displayWeights[index]);
+            // printf("cmp_weight: %f \n", displayWeight_cmp);
+            printf("weight: %f \n", displayWeights[ind]);
 
             if (displayWeight != 0) {
                 printf("Final weight: %f \n", displayWeight);
@@ -123,36 +162,3 @@ void main() {
     }
 }
 
-bool adcMinMax() {
-    double max = INT_MIN;
-    double min = INT_MAX; 
-
-    for (int i = 0; i < 20; i++) {
-        if (displayWeights[i] > max) {
-            max = displayWeights[i];
-        }
-        if (displayWeights[i] < min) {
-            min = displayWeights[i];
-        }
-    }
-
-    if (max - min <= average_weight) {
-        return true;
-    } else {
-        return false; 
-    }
-}
-
-double adcAverage() {
-    double average;
-    double sum = 0;
-
-    for (int i = 0; i < 20; i++) {
-        sum += displayWeights[i];
-    }
-
-    average = sum / 20;
-
-    return average;
-
-}
