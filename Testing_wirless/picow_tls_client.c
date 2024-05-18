@@ -7,13 +7,24 @@
 
 
 // Variables
-enum state STATE = WEIGH;
+enum state STATE = IDLE;
 double weight = 0.0;
-double tare = 0.0;
+double tare = 0.27;
 double displayWeight;
 double displayWeight_cmp;
 double displayWeights[20];
 int ind = 0; 
+bool sendReady = 0;
+char json_data[50];
+
+double sleepWeight = 0.0;
+int sleepCount = 0;
+double sleepVar = 0.1;
+int sleepTimer = 240;
+double static_weight = 0.0;
+
+bool disconnected = false;
+double sleepAdc = 0.0;
 
 bool dipalyWeightMinMax() {
     double max = INT_MIN;
@@ -28,6 +39,8 @@ bool dipalyWeightMinMax() {
         }
     }
 
+    printf("max-min: %f \n", (min - max));
+    printf("average_weight: %f \n", average_weight);
     if (max - min <= average_weight) {
         return true;
     } else {
@@ -53,7 +66,7 @@ void main() {
 
     stdio_init_all();
     initPins();
-    tare = adcConvert(); // adc already active??
+    
     while(1) {
 
         // Switch statement to enable state machine function
@@ -62,31 +75,40 @@ void main() {
             
             // Check wifi connection if connected do nothing, if not connected attempt to find a connection
             
+            // printf("IDLE\n");
             printf("IDLE\n");
-
             connect_to_wifi();
             
             // send_http_post_request("{\"ScaleID\": 8888, \"Weight\": 999}");
             // send_http_post_request("{\"value\": 999}");
             // send_http_post_request("{value: 999}");
-
+            //tare = adcConvert(); // adc already active??
             // sleep_ms(100);
 
+            tare = 0.27;
             
-            // printf("All done\n");
 
-            // STATE = SLEEP; // for wifi testing
+            STATE = WEIGH; // for wifi testing
         break;
         case SLEEP:
 
         
             // Deactivates wifi
             // NOT EXIST
-            disconnect_to_wifi();
+            if (disconnected == false){
+                disconnect_to_wifi();
+                disconnected = true;
+            }
             
+            sleepAdc = adcConvert();
             // STATE = IDLE;  // for testing wifi reconnect 
             // maby be disabale adc ??
-
+            printf("SleepADC: %f", sleepAdc);
+            printf("static_weight: %f", static_weight);
+            if ((sleepAdc > (static_weight + 0.016)) || (sleepAdc < (static_weight - 0.016))){
+                disconnected = false;
+                STATE = IDLE;
+            }
             // // Check for inputs from scale, if true move to WEIGH state
             // if (checkWeight() == 1) { // NOT EXIST
             //     // Reset tare when waking
@@ -94,7 +116,8 @@ void main() {
             //     STATE = WEIGH;
             // }
             // // Check for inputs from tare button, if true move to TARE state
-           
+           printf("WE'RE SLEEPING\n");
+           sleep_ms(500);
 
         break;
         case TARE:
@@ -114,29 +137,51 @@ void main() {
 
             // displayWeight_cmp = (weight - tare)/0.1642;// to compare
             
-            ind = ind + 1;
+           
             displayWeights[ind] = (weight - tare)/0.1642;
-            // displayWeight_cmp = displayWeights[ind];
             
-            if (ind == 10) {
+           
+            
+            if (ind == 4) {
                 // if (dipalyWeightMinMax() == 1) {
-                    displayWeight = dipalyWeightAverage();
+                    displayWeight = displayWeights[ind];
                 // }else {
                     // displayWeight = 0;
                 // }
                 
                 ind = 0;
             }
+
+            ind = ind + 1;
         
             printf("tare: %f \n", tare);
             printf("original voltage: %f V \n", weight);
             printf("voltage: %f V\n", (weight - tare));
             // printf("cmp_weight: %f \n", displayWeight_cmp);
-            printf("weight: %f \n", displayWeights[ind]);
+            printf("weight: %f \n", displayWeight);
 
-            if (displayWeight != 0) {
+            if (displayWeight >= 0.1 && sendReady == 0) {
+                sendReady = 1;
+                displayWeight = 0;
+
+            } else if (displayWeight >= 0.1 && sendReady == 1) {
                 printf("Final weight: %f \n", displayWeight);
-                //STATE = SEND; 
+                sendReady = 0;
+                STATE = SEND; 
+            }
+
+
+            if (displayWeights[ind] > sleepWeight + sleepVar || displayWeights[ind] < sleepWeight - sleepVar) {
+                sleepWeight = displayWeights[ind];
+                sleepCount = 0;
+
+            } else if (sleepCount == sleepTimer) {
+                sleepCount = 0;
+                static_weight = weight;
+                STATE = SLEEP;
+
+            } else {
+                sleepCount += 1;
             }
 
             sleep_ms(500);
@@ -150,11 +195,16 @@ void main() {
 
         break;
         case SEND:
+            printf("SEND weight: %f \n", displayWeight);
+            snprintf(json_data, sizeof(json_data), "{\"value\": %f}", displayWeight);
+            send_http_post_request(json_data);
+            // send_http_post_request("{\"value\": 999}");
+            sleep_ms(1000);
+
+            displayWeight = 0;
             
-            send_http_post_request("{\"value\": 999}");
-            sleep_ms(100);
 
-
+            STATE = WEIGH;
         break;
         default:
         break;
