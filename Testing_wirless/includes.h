@@ -5,3 +5,4 @@
 #include "inputs.h"
 #include "inputs.c"
 #include "wifi.c"
+#include "hardware/gpio.h"

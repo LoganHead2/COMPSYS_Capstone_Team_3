@@ -9,6 +9,4 @@ enum state {
 };
 
 double varible_weight = 0.05;
-double average_weight = 0.2; 
-
 #endif

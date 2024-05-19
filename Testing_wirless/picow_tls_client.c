@@ -72,7 +72,11 @@ void main() {
         // Switch statement to enable state machine function
         switch (STATE) {
         case IDLE:
-            
+            gpio_put(LED_1, true);             
+            gpio_put(LED_2, true); 
+            sleep_ms(500);
+            gpio_put(LED_1, false); 
+            gpio_put(LED_2, false); 
             // Check wifi connection if connected do nothing, if not connected attempt to find a connection
             
             // printf("IDLE\n");
@@ -121,8 +125,10 @@ void main() {
 
         break;
         case TARE:
-            // Set current weight to be zero
+            // Set current weight to be zeros
             tare = weight;
+            sleep_ms(300);
+            gpio_put(LED_2, false); 
             // Move to IDLE state
             STATE = WEIGH;
 
@@ -195,12 +201,14 @@ void main() {
 
         break;
         case SEND:
+            
             printf("SEND weight: %f \n", displayWeight);
             snprintf(json_data, sizeof(json_data), "{\"value\": %f}", displayWeight);
             send_http_post_request(json_data);
+            gpio_put(LED_1, true); 
             // send_http_post_request("{\"value\": 999}");
             sleep_ms(1000);
-
+            gpio_put(LED_1, false); 
             displayWeight = 0;
             
 
